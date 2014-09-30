@@ -23,6 +23,8 @@
   ],
   "dependencies": {
     "scut": "~1.0.1",
-    "singularity": "~1.4.0"
+    "singularity": "~1.4.0",
+    "bourbon": "~4.0.2",
+    "jquery": "~2.1.1"
   }
 }

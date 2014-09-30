@@ -1,0 +1,18 @@
+doctype html
+html.no-js
+  block head
+    include ../partials/head.jade
+body
+  include ../partials/browsehappy.jade
+  //- Can be overriden by include a header block in page.
+  block header
+    //- Consistent header for all generated pages
+    include ../partials/header.jade
+  block page
+    p Override this
+  //- Can be overriden by include a footer block in page.
+  block footer
+    //- Consistent footer for all generated pages
+    include ../partials/footer.jade
+  //- Include the scripts and so on inside afterfooter.jade
+  include ../partials/afterfooter.jade

@@ -1,0 +1,25 @@
+{
+  "name": "sth-static-site",
+  "version": "0.0.1",
+  "description": "Custom Static Site Generator Using Jade Sass and Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SeeThruHead/sth-static-site.git"
+  },
+  "keywords": [
+    "jade",
+    "sass",
+    "gulp",
+    "static"
+  ],
+  "author": "Shane Keulen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeeThruHead/sth-static-site/issues"
+  },
+  "homepage": "https://github.com/SeeThruHead/sth-static-site"
+}
